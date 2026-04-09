@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "▶ Run ShieldPrompt Backend",
+      "type": "shell",
+      "command": "cd backend && pip install -r requirements.txt -q && python app.py",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

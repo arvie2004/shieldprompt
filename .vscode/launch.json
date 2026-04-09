@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ShieldPrompt Backend",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/app.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "FLASK_ENV": "development",
+        "FLASK_DEBUG": "1"
+      }
+    }
+  ]
+}
